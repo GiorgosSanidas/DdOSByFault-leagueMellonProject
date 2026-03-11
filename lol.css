@@ -12,6 +12,7 @@ h1, h2 {
     color: #ffcc00;
     text-align: center;
     margin: 20px 0;
+    text-decoration: underline;
 }
 
 .package{
@@ -98,6 +99,7 @@ hr {
 
 .faq p {
     margin: 10px 0;
+    text-align: center;
 }
 
 
@@ -160,9 +162,12 @@ nav a:hover{
 
 .pages {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	color: silver;
 	padding: 10px;
 	border: 0;
-	text-align: left;
+	text-align: right;
 	line-height: 0.6;
 	font-size: 0.5em;}
+
+a {
+    color: beige;
+}
