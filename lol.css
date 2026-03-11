@@ -1,0 +1,245 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0e0e0e;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Cinzel', serif;
+    color: #ffcc00;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.header {
+    font-size: 2em;
+    text-align: center;
+}
+
+.header sub {
+    font-size: 0.5em;
+    color: #cccccc;
+}
+
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #ffcc00;
+    margin: 20px 0;
+}
+
+
+.hero {
+    background: url('lolHWp.jpg') no-repeat center center/cover;
+    padding: 80px 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+
+.paragraph {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1em;
+    text-align: justify;
+}
+
+
+.features {
+    background-color: #1a1a1a;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features ul {
+    list-style-type: square;
+    padding-left: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.features li {
+    margin: 10px 0;
+}
+
+
+.faq {
+    padding: 40px 20px;
+    background-color: #111111;
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq p {
+    margin: 10px 0;
+}
+
+
+.signup {
+    background-color: #222222;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.signup h2 {
+    margin-bottom: 20px;
+}
+
+.signup input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.signup input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.signup input[type="submit"]:hover {
+    background-color: #e6b800;
+}
+
+.disclaimer {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: gold;
+	padding: 10px;
+	border: 0;
+	text-align: center;
+	line-height: 0.6;
+	font-size: 0.75em;}
+
+nav{
+	font-size:20px;
+	margin-bottom:20px;
+}
+
+nav a{
+	text-decoration:none;
+	margin-right:20px;
+	color:gold;
+}
+
+nav a:hover{
+	color:white;
+}
+
+.pages {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: silver;
+	padding: 10px;
+	border: 0;
+	text-align: left;
+	line-height: 0.6;
+	font-size: 0.5em;}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>League Of Legends</title>
+  <link rel="stylesheet" type="text/css" href="lol.css">
+  <script src="lol.js"></script>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="pages">
+  <a href="lol site.html">Home</a>
+  <a href="buy-rp.html">Buy RP Points</a>
+</nav>
+
+<!-- Header -->
+<h1 class="header">Welcome to the original League Of Legends website!</h1>
+<sub>The video game that raised us...</sub>
+
+<hr>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h2>Join the Battle</h2>
+  <p>Experience the most popular MOBA game in the world.</p>
+</section>
+
+<!-- Game Description -->
+<p class="paragraph">
+  League of Legends (LoL), commonly referred to as League, is a multiplayer online battle arena video game developed and published by Riot Games.
+</p>
+
+<p class="paragraph">
+  In the game's main mode, Summoner's Rift, two teams of five players battle in player-versus-player combat.
+</p>
+
+<!-- Features -->
+<section class="features">
+  <p>Why would someone play LoL?</p>
+  <ul>
+    <li>They want to get their nerves out...</li>
+    <li>They're bored...</li>
+    <li><b>ALL OF THE ABOVE BASICALLY</b></li>
+  </ul>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <h2>FAQ</h2>
+  <p><b>Is League of Legends free?</b></p>
+  <p>Yes, the game is free to play.</p>
+
+  <p><b>How many players play in one match?</b></p>
+  <p>Two teams of five players.</p>
+</section>
+
+<!-- Signup -->
+<section class="signup">
+  <h2>Subscribe for Updates</h2>
+  <form>
+    <label>Email:</label>
+    <br>
+    <input type="email" placeholder="example@email.com" required>
+    <br><br>
+    <input type="submit" value="Subscribe">
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="disclaimer"> 
+  This website was created for educational purposes only. 
+  League of Legends and all related content are property of Riot Games.
+  <br>
+  © George Sanidas & MellonGroupTechnologies
+</footer>
+
+</body>
+</html>
