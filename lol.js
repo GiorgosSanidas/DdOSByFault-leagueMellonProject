@@ -1,39 +1,24 @@
-localStorage.setItem("username", 
-"john");
-const username = 
-localStorage.getItem("username");
-console.log(username);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let cart = [];
 
 let packages = [
  {name: "650 RP", price: 5},
  {name: "1380 RP", price: 10},
  {name: "2800 RP", price: 20},
- {name: "5000 RP", price: 35}
+ {name: "5000 RP", price: 35},
+    {name: "10000 RP", price:50}
 ];
+
+let cartContainer = document.querySelector(".package");
+
+for (let i=0; i<packages.length; i++){
+    let pc = document.createElement("li");
+    pc.innerHTML = `${packages[i].name} - ${packages[i].price} $`;
+    let btn = document.createElement("button");
+    btn.innerHTML = "BUY";
+    pc.appendChild(btn);
+    cartContainer.appendChild(pc);
+}
+
 
 let buttons = document.querySelectorAll(".package button");
 
