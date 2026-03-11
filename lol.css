@@ -15,6 +15,9 @@ h1, h2 {
     text-decoration: underline;
 }
 
+.package{
+    color:white;
+}
 
 .header {
     font-size: 2em;
