@@ -12,6 +12,7 @@ h1, h2 {
     color: #ffcc00;
     text-align: center;
     margin: 20px 0;
+    text-decoration: underline;
 }
 
 
@@ -95,6 +96,7 @@ hr {
 
 .faq p {
     margin: 10px 0;
+    text-align: center;
 }
 
 
@@ -157,89 +159,12 @@ nav a:hover{
 
 .pages {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	color: silver;
 	padding: 10px;
 	border: 0;
-	text-align: left;
+	text-align: right;
 	line-height: 0.6;
 	font-size: 0.5em;}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>League Of Legends</title>
-  <link rel="stylesheet" type="text/css" href="lol.css">
-  <script src="lol.js"></script>
-</head>
 
-<body>
-
-<!-- Navigation -->
-<nav class="pages">
-  <a href="lol site.html">Home</a>
-  <a href="buy-rp.html">Buy RP Points</a>
-</nav>
-
-<!-- Header -->
-<h1 class="header">Welcome to the original League Of Legends website!</h1>
-<sub>The video game that raised us...</sub>
-
-<hr>
-
-<!-- Hero Section -->
-<section class="hero">
-  <h2>Join the Battle</h2>
-  <p>Experience the most popular MOBA game in the world.</p>
-</section>
-
-<!-- Game Description -->
-<p class="paragraph">
-  League of Legends (LoL), commonly referred to as League, is a multiplayer online battle arena video game developed and published by Riot Games.
-</p>
-
-<p class="paragraph">
-  In the game's main mode, Summoner's Rift, two teams of five players battle in player-versus-player combat.
-</p>
-
-<!-- Features -->
-<section class="features">
-  <p>Why would someone play LoL?</p>
-  <ul>
-    <li>They want to get their nerves out...</li>
-    <li>They're bored...</li>
-    <li><b>ALL OF THE ABOVE BASICALLY</b></li>
-  </ul>
-</section>
-
-<!-- FAQ -->
-<section class="faq">
-  <h2>FAQ</h2>
-  <p><b>Is League of Legends free?</b></p>
-  <p>Yes, the game is free to play.</p>
-
-  <p><b>How many players play in one match?</b></p>
-  <p>Two teams of five players.</p>
-</section>
-
-<!-- Signup -->
-<section class="signup">
-  <h2>Subscribe for Updates</h2>
-  <form>
-    <label>Email:</label>
-    <br>
-    <input type="email" placeholder="example@email.com" required>
-    <br><br>
-    <input type="submit" value="Subscribe">
-  </form>
-</section>
-
-<!-- Footer -->
-<footer class="disclaimer"> 
-  This website was created for educational purposes only. 
-  League of Legends and all related content are property of Riot Games.
-  <br>
-  © George Sanidas & MellonGroupTechnologies
-</footer>
-
-</body>
-</html>
+a {
+    color: beige;
+}
