@@ -62,3 +62,10 @@ function clearCart() {
 
 }
 
+function checkout() {
+  if (cart.length !== 0) {
+   window.location.href = "purchasecompleted.html";
+  } else {
+   return ;
+  }
+}
