@@ -8,7 +8,7 @@ let packages = [
     {name: "10000 RP", price:50}
 ];
 
-let cartContainer = document.querySelector(".package");
+let cartContainer = document.querySelector(".list");
 
 for (let i=0; i<packages.length; i++){
     let pc = document.createElement("li");
@@ -19,18 +19,17 @@ for (let i=0; i<packages.length; i++){
     cartContainer.appendChild(pc);
 }
 
+//hold all buttons so as to add event listeners
+let buttons = document.querySelectorAll(".list button");
 
-let buttons = document.querySelectorAll(".package button");
+//add click listener to every button
+for (let i=0; i<buttons.length; i++) {
+    buttons[i].addEventListener("click",()=>addToCart(i));
+}
 
-buttons[0].onclick = function() { addToCart(0); }
-buttons[1].onclick = function() { addToCart(1); }
-buttons[2].onclick = function() { addToCart(2); }
-buttons[3].onclick = function() { addToCart(3); }
-
+//append whole li to cart
 function addToCart(index) {
-
- cart.push(packages[index]);
-
+    cart.push(packages[index]);
  updateCart();
 }
 
